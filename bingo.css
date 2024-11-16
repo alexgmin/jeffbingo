@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+nav {
+  margin: 1rem auto;
+  text-align: center;
+}
+nav > button {
+  font-size: 2rem;
+}
+
+#bingo {
+  list-style: none;
+  display: grid;
+  margin: 1rem auto;
+  width: auto;
+  padding: 0;
+  grid: repeat(5, 10rem) / auto-flow 10rem;
+  font-family: monospace;
+  justify-content: center;
+}
+#bingo > li {
+  border: 1px solid black;
+}
+#bingo > li:hover,
+#bingo > li.active:hover {
+  background: yellow;
+}
+#bingo > li.active {
+  background: red;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jeff's office hours bingo</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="bingo.css" />
+</head>
+
+<body>
+  <h1>Jeff's Bingo</h1>
+
+  <nav>
+    <button id="newgrid" onclick="randomLoad()">Random card</button>
+  </nav>
+
+  <ul id="bingo"></ul>
+
+  <script type="application/json" id="bingodata">
+  [
+"Kojo talks about Texas geography",
+"This is fine",
+"Two people with the same (first) name",
+"Chris talks about Ruby",
+"Non-metric measurement",
+"Basketball",
+"Politics",
+"just",
+"Executive Director",
+"Tim is summoned",
+"Marijke complains about Amsterdam",
+"Python",
+"Django",
+"Flask",
+"Wordpress",
+"uv",
+"AI",
+"Django News",
+"Stroopwafels",
+"CATS",
+"Chris fireworks camera effect",
+"PEP",
+"Baptiste makes a bad pun",
+"Jay writes something not in Python",
+"Tailwind",
+"Opensource community drama",
+"USA vs. Europe",
+"This is a safe space"
+]
+  </script>
+  <script type="text/javascript" src="./textFit.min.js"></script>
+  <script type="text/javascript" src="./bingo.js"></script>
+</body>
+</html>
